@@ -1,0 +1,43 @@
+.product {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin: 20px; 
+}
+
+.image-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 150px; 
+}
+
+.img-fluid {
+    max-height: 150px;
+    max-width: 100%;
+    object-fit: cover; 
+}
+
+.drop-container {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+}
+
+
+.dropdown-menu {
+    margin-right: 20%;
+    position: absolute;
+    top: 50px; 
+    right: 50px; 
+    width: 300px; 
+    max-height: 400px; 
+    overflow-y: auto;
+    z-index: 1000;
+    background-color: white;
+    border: 1px solid #ddd; 
+    border-radius: 5px; 
+    display: none; 
+}
