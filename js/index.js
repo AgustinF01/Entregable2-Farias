@@ -88,7 +88,7 @@ function confirmRemoveFromCart(index) {
     }
 }
 
-// Mostrar productos al cargar la página
+
 displayProducts();
 
 // Función para mostrar y ocultar el carrito
@@ -104,7 +104,7 @@ document.getElementById('cart-toggle').addEventListener('click', function() {
     if (rect.right > windowWidth) {
         cartDropdown.style.right = `${windowWidth - rect.width}px`;
     } else {
-        cartDropdown.style.right = '0'; // Asegúrate de que esté alineado a la derecha
+        cartDropdown.style.right = '0'; 
     }
 });
 
